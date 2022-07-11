@@ -22,7 +22,6 @@ A sequential version of the program has also been implemented to perform compari
 
 ```
 📦JacobiSPM
- ┣ 📜Dockerfile.file
  ┣ 📂plot
  ┃ ┣ ...
  ┣ 📂src
@@ -42,6 +41,7 @@ A sequential version of the program has also been implemented to perform compari
  ┃ ┣ 📜utility.h
  ┃ ┣ 📜utimer.cpp
  ┃ ┣ 📜vectorization.cpp
+ ┣ 📜Dockerfile.file
  ┣ 📜README.md                     
 ```
 
