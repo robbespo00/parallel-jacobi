@@ -1,6 +1,6 @@
 iterations=100
 tolerance=-1
-output_filename="test"
+output_filename="results"
 max_num_threads=32
 
 for size in 1000 5000 15000; do
