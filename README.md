@@ -80,7 +80,7 @@ where
 - **[matrix_size]**: is the length of the matrix and vector. A matrix of size matrix_size*matrix_size and a vector of length matrix_size will be created.
 - **[number_iterations]**: Number of iterations to be performed for Jacobi's method.
 - **[tolerance]**: is the stopping criteria in order to avoid to reach the maximum number of iterations.
-- **[output_filename]: is the filename where the outputs will be saved (it is a csv file)
+- **[output_filename]**: is the filename where the outputs will be saved (it is a csv file)
 - **[num_threads]**: Degree of parallelism to be used.
 
 To run all experiments at once run the file execute.sh
