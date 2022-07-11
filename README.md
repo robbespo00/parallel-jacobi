@@ -2,6 +2,11 @@
 
 A comparison between different parallel implementations of the Jacobi algorithm for determining the solutions of a system of linear equations.
 
+## Table of contents[![](./docs/img/pin.svg)](#table-of-contents)
+1. [Implementation](#implementation)
+2. [Structure](#structure)
+3. [Compiling and running](#compiling)
+4. [Results](#results)
 
 ## Implementation
 
@@ -38,7 +43,7 @@ A sequential version of the program has also been implemented to perform compari
  ┣ 📜README.md                     
 ```
 
-## Compiling and running
+## Compiling
 
 A Makefile was created to compile the various versions. To create the executable files, it is possible to execute the rule
 
