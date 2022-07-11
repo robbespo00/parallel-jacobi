@@ -35,7 +35,7 @@ A sequential version of the program has also been implemented to perform compari
  ┃ ┣ 📜utility.h
  ┃ ┣ 📜utimer.cpp
  ┃ ┣ 📜vectorization.cpp
- ┃ 📜README.md                     
+ ┣ 📜README.md                     
 ```
 
 ## Compiling and running
