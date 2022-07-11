@@ -16,6 +16,8 @@ A sequential version of the program has also been implemented to perform compari
 
 ```
 📦JacobiSPM
+ ┣ 📂plot
+ ┃ ┣ ...
  ┣ 📂src
  ┃ ┣ 📜CMakeLists.txt
  ┃ ┣ 📜Makefile
@@ -66,9 +68,9 @@ To run all experiments at once run the file execute.sh
 
 ## Results
 
-Below are some results for completion time and speedup with matrixes of size 5000*500
+Below are some results for completion time and speedup with matrixes of size 15.000*15.000
 
 <p align="center">
-<img src="results/Completion%20Time%20Matrix%20Size%205000.png" height="250" />
-<img src="results/SPEEDUP%20Matrix%20Size%205000.png" height="250" />
+<img src="plot/completiontime_15000size.png" height="250" />
+<img src="plot/speedup_100iter_15000size_false.png" height="250" />
 </p>
