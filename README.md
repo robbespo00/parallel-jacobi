@@ -5,8 +5,9 @@ A comparison between different parallel implementations of the Jacobi algorithm 
 ## Table of contents[![](./docs/img/pin.svg)](#table-of-contents)
 1. [Implementation](#implementation)
 2. [Structure](#structure)
-3. [Compiling and running](#compiling)
-4. [Results](#results)
+3. [Compiling](#compiling)
+4. [Running](#running)
+5. [Results](#results)
 
 ## Implementation
 
@@ -50,6 +51,8 @@ A Makefile was created to compile the various versions. To create the executable
 ```bash
     make
 ```
+
+## Running
 
 To run an experiment, it is possible to launch the program and pass the necessary arguments. An example is the following
 
