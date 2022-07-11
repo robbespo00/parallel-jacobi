@@ -53,7 +53,8 @@ A sequential version of the program has also been implemented to perform compari
  ┃ ┣ 📜utimer.cpp
  ┃ ┣ 📜vectorization.cpp
  ┣ 📜Dockerfile.file
- ┣ 📜README.md                     
+ ┣ 📜README.md         
+ ┣ 📜spm_plots.ipynb 
 ```
 
 ## Compiling
