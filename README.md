@@ -74,9 +74,9 @@ To run an experiment, it is possible to launch the program and pass the necessar
 
 where
 - **[mode]**: is the modality to execute the algorithm 
-- - **[seq]**: sequential version
-- - **[thr]**: native threads version
-- - **[ff]**: FastFlow version
+  - **[seq]**: sequential version
+  - **[thr]**: native threads version
+  - **[ff]**: FastFlow version
 - **[matrix_size]**: is the length of the matrix and vector. A matrix of size matrix_size*matrix_size and a vector of length matrix_size will be created.
 - **[number_iterations]**: Number of iterations to be performed for Jacobi's method.
 - **[tolerance]**: is the stopping criteria in order to avoid to reach the maximum number of iterations.
