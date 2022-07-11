@@ -1,1 +1,1 @@
-# jacobi-spm
+# Parallelization of the Jacobi's Algorithm
