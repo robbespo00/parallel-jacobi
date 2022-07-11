@@ -79,7 +79,7 @@ To run all experiments at once run the file execute.sh
 
 ## Results
 
-Below are some results for completion time and speedup with matrixes of size 15.000*15.000
+Below are some results for completion time and speedup with matrixes of size $15.000 \times 15.000$
 
 <p align="center">
 <img src="plot/completiontime_15000size.png" height="250" />
