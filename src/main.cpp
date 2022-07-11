@@ -10,15 +10,16 @@ using namespace std;
 
 
 #define TRIALS 5 // number of trials to do such that then it is performed the average of the computation times.
-#define MIN_MATRIX 0
-#define MAX_MATRIX 20
-#define MIN_VECTOR 0
-#define MAX_VECTOR 20
-#define SEED 14
+#define MIN_MATRIX 0 // minimum value of the matrix
+#define MAX_MATRIX 20 // maximum value of the matrix
+#define MIN_VECTOR 0 // minimum value of the vector
+#define MAX_VECTOR 20 // maximum value of the vector
+#define SEED 14 // seed to generate random numbers
 
 
 int main(int argc, char *argv[]) {
 
+    // Check on the input values
     if(argc < 6){
         cerr << "The parameters must be 6 or 7" << endl;
         cerr << "Parameters: [MODE] [SIZE] [ITERATIONS] [TOLERANCE] [OUTPUT_FILENAME] [NUM_THREADS]" << endl;
