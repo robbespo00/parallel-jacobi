@@ -22,6 +22,7 @@ A sequential version of the program has also been implemented to perform compari
 
 ```
 📦JacobiSPM
+ ┣ 📜Dockerfile.file
  ┣ 📂plot
  ┃ ┣ ...
  ┣ 📂src
