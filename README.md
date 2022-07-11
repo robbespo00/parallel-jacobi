@@ -84,7 +84,7 @@ where
 - **[output_filename]**: is the filename where the outputs will be saved (it is a csv file)
 - **[num_threads]**: Degree of parallelism to be used.
 
-To run all experiments at once run the file execute.sh
+To run all experiments at once run the file bash.sh
 
 ```bash
     ./bash.sh
