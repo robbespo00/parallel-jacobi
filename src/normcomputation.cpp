@@ -13,6 +13,7 @@ using namespace std;
 #define MAX_VECTOR 20
 #define SEED 14
 
+
 int main(){
 
     int size = 5000;
@@ -24,7 +25,7 @@ int main(){
     long double avg_time = 0;
 
     for(int i = 0; i < TRIALS; i++){
-        vector<float> vector = sequential_jacobi(matrix, knownTerm, iterations, 0, time);
+        vector<float> vector = sequential_jacobi(matrix, knownTerm, iterations, -1, time);
         avg_time += time;
     }
     avg_time /= TRIALS;

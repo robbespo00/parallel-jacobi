@@ -40,7 +40,10 @@ vector<float> ff_jacobi(vector<vector<float>> matrix, const vector<float> knownT
                 }
                 curr_variables[i] = (knownTerm[i] - sum) / matrix[i][i];
             }, num_threads);
-            prev_variables = curr_variables;
+            {
+                utimer copy = utimer("Copy time");
+                prev_variables = curr_variables;
+            }
         }
     }
     return curr_variables;
